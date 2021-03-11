@@ -5,7 +5,6 @@ title: Kismet Data Reference
 
 This is an attempt to get all data / variables you can get in kismet in one place. 90% (or more) isn't tested if it works, for now it's enough if it is out there and then the testing can begin.
 
-Types of values in this file:
 
 ## WorldInfo
 (WorldInfo ->)
