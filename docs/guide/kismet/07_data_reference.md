@@ -8,7 +8,7 @@ This is an attempt to get all data / variables you can get in kismet in one plac
 Types of values in this file:
 
 :::details WorldInfo
-## WorldInfo
+WorldInfo
 (WorldInfo -> )
 
 + Time limit:
