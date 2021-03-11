@@ -9,8 +9,8 @@ This is an attempt to get all data / variables you can get in kismet in one plac
 ## WorldInfo
 (WorldInfo ->)
 
-+ Time limit:
 ```
++ Time limit:
 	- Property Name: Game -> TimeLimit
 	- Does This Work?: Unknown
 ```
