@@ -8,7 +8,7 @@ This is an attempt to get all data / variables you can get in kismet in one plac
 
 Types of values in this file:
 
-::: details WorldInfo
+:::details WorldInfo
 ## WorldInfo
 (WorldInfo -> )
 
@@ -112,7 +112,7 @@ Types of values in this file:
 	- Property Name: bRequestedBlockOnAsyncLoading ((used to check connection)? => is this even usefull?)
 :::
 
-::: details GRI
+:::details GRI
 ## GRI (GameReplicationInfo)
 (WorldInfo -> GRI)
 
@@ -167,10 +167,10 @@ Types of values in this file:
 	- Does This Work?: Unknown
 :::
 
-::: details PRI
+:::details PRI
 ## PRI (PlayerReplicationInfo)
 (WorldInfo -> GRI -> PRI)
-::: tip How to Access PRI Properties in Kismet
+:::tip How to Access PRI Properties in Kismet
 Get Object Property (PRI) -> Get Object Property (Property Name) (picture)
 :::
 + Player Name
@@ -449,26 +449,26 @@ Get Object Property (PRI) -> Get Object Property (Property Name) (picture)
 	- Property Name: TotalXP
 	- Does This Work?: Unknown
 :::
-::: details Console commands
+:::details Console commands
 :::
-::: details Actions
+:::details Actions
 :::
-::: details Classes
+:::details Classes
 :::
-::: details Game events
+:::details Game events
 :::
-::: details Server types
+:::details Server types
 :::
-::: details particle systems
+:::details particle systems
 :::
-::: details Undocumented nodes
+:::details Undocumented nodes
 :::
-::: details UI States
+:::details UI States
 :::
-::: details Game URL options
+:::details Game URL options
 :::
 
-
+:::details
 ## Console commands
 
 + working
@@ -502,7 +502,9 @@ Get Object Property (PRI) -> Get Object Property (Property Name) (picture)
 	- GiveAllProductsBeforeThisVersion
 	- GiveAllProductsDroppable
 	- GiveAllProducts
+:::
 
+:::details
 ## Actions 
 (without replay and trainingeditor)
 
@@ -553,12 +555,16 @@ Get Object Property (PRI) -> Get Object Property (Property Name) (picture)
 - Settings
 	- ToggleStatGraphs
 	- AutoSaveReplay
+:::
 
+:::details
 ## Bots
 - actions:
 - conditions:
 - other:
+:::
 
+:::details
 ## Classes
 
 - ball
@@ -654,7 +660,9 @@ Get Object Property (PRI) -> Get Object Property (Property Name) (picture)
 	- MutatorPreset_Rugby
 	- MutatorPreset_SnowDay
 	- MutatorPreset_TimeWarp
+:::
 
+:::details
 ## Events
 
 - working events
@@ -771,7 +779,9 @@ Get Object Property (PRI) -> Get Object Property (Property Name) (picture)
 	- PrePodiumSpotlight
 	- PodiumSpotlight
 	- Finished
+:::
 
+:::details
 ## Server types (get with WI -> NetMode?)
 Probably better to get the server type with the kismet node
 
@@ -779,7 +789,9 @@ Probably better to get the server type with the kismet node
 - NM_DedicatedServer  // Dedicated server, no local client.
 - NM_ListenServer      // Listen server.
 - NM_Client             // Client only, no local server.
+:::
 
+:::details
 ## Particle systems:
 (use material library for particle systems?)
 - Park_P
@@ -790,7 +802,9 @@ Probably better to get the server type with the kismet node
 	- ParticleSystem'Stadium.Particles.Confetti_Explosion_Large_PS'
 - player leaves match
 	- ParticleSystem'FX_LeaveGame.FX.Beam_PS' (TAGame.upk)
+:::
 
+:::details
 ## Undocument nodes?
 
 Might be that these have a different name in UDK / I missed them in UDK / Nodes are working / nodes are only working outside of a custom map (most of them are already discovered before):
@@ -829,7 +843,9 @@ Might be that these have a different name in UDK / I missed them in UDK / Nodes 
     - SeqEvent_StartHighlightReel_TA
     - SeqEvent_CinematicIntroSeqFinished_TA
     - SeqEvent_IntroMenu_TA
-    
+:::
+
+:::details
 ## UI states
 
 - working:
@@ -847,7 +863,10 @@ Might be that these have a different name in UDK / I missed them in UDK / Nodes 
 	- Countdown
 	- Nameplates
 	- RL_Logo
+:::
 
+:::details
 ## Game URL options
 
 options: `ExitMessage`
+:::
