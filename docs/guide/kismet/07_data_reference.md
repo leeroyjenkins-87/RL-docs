@@ -1,6 +1,5 @@
 ---
-title: style
-sidebar: auto
+title: Kismet Data Reference
 ---
 # Kismet Data reference
 
