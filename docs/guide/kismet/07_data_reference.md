@@ -170,7 +170,7 @@ Types of values in this file:
 ::: details PRI
 ## PRI (PlayerReplicationInfo)
 (WorldInfo -> GRI -> PRI)
-::: How to Access PRI Properties in Kismet
+::: tip How to Access PRI Properties in Kismet
 Get Object Property (PRI) -> Get Object Property (Property Name) (picture)
 :::
 + Player Name
